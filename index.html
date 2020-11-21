@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>reveal.js</title>
+
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
+  <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+    <section data-background-color="#457b9d" data-transition="zoom">
+      <p class="r-fit-text">Animacje na stronach WWW</p>
+      <img src="assets/motion-graphics.svg" alt="Animacja grafika">
+    </section>
+    <section data-background-color="#1d3557">
+      <section>
+        <p class="r-fit-text">Cześć! Nazywam się <b>Kamil Serafin</b></p>
+        <img style="width: 200px; height: 200px; border-radius: 50%; filter: grayscale(20%)" src="assets/prof2.jpg"
+             alt="Moje zdjęcie profilowe">
+      </section>
+      <section data-background-color="#457b9d">
+        <p>Podzielę się z wami moją wiedzą i doświadczeniem z zakresu <b>animacji</b>.</p><br>
+        <p>Jeśli macie jakieś <b>pytania</b>, bardzo chętnie spróbuję na nie odpowiedzieć.</p>
+      </section>
+    </section>
+    <section data-background-color="#1d3557">
+      <p class="r-fit-text">Na początek postawimy sobie 3 pytania.</p>
+      <img style="width: 200px; height: 200px;" src="assets/question-mark.svg" alt="Pytajnik">
+    </section>
+    <section data-background-color="#457b9d" data-auto-animate>
+      <p>
+        1. Czym są <b>Animacje?</b>
+      </p>
+    </section>
+    <section data-background-color="#457b9d" data-auto-animate>
+      <p>
+        1. Czym są <b>Animacje?</b>
+      </p>
+      <p>
+        2. Po co się ich używa?
+      </p>
+    </section>
+    <section data-background-color="#457b9d" data-auto-animate>
+      <p>
+        1. Czym są <b>Animacje?</b>
+      </p>
+      <p>
+        2. Po co się ich używa?
+      </p>
+      <p>
+        3. Jak można podzielić animacje i czym się charakteryzują?
+      </p>
+    </section>
+    <section data-background-color="#1d3557">
+      <p class="r-fit-text">Jak to było kiedyś... ?</p>
+      <section>
+        <div class="r-stack">
+          <img class="fragment" src="assets/anim/69.jpg">
+          <img class="fragment" src="assets/anim/70.jpg">
+          <img class="fragment" src="assets/anim/71.jpg">
+          <img class="fragment" src="assets/anim/72.jpg">
+          <img class="fragment" src="assets/anim/73.jpg">
+          <img class="fragment" src="assets/anim/74.jpg">
+          <img class="fragment" src="assets/anim/75.jpg">
+          <img class="fragment" src="assets/anim/76.jpg">
+          <img class="fragment" src="assets/anim/77.jpg">
+          <img class="fragment" src="assets/anim/78.jpg">
+          <img class="fragment" src="assets/anim/79.jpg">
+          <img class="fragment" src="assets/anim/80.jpg">
+        </div>
+      </section>
+    </section>
+    <section data-background-color="#457b9d" data-auto-animate>
+      <p>Po co?</p>
+    </section>
+    <section data-background-color="#457b9d" data-auto-animate>
+      <p>Po co?</p>
+      <p>Odpowiedź:</p>
+    </section>
+    <section data-background-color="#1d3557">
+      <p class="r-fit-text"><b>Użytkownik</b> chętniej wróci na naszą stronę - coś się dzieje</p>
+			<br>
+			<section>
+				<div class="r-stack">
+					<img style="transform: rotateZ(-20deg)" class="fragment" src="https://media1.tenor.com/images/d3386f6caeea27736f95166eb52ebb12/tenor.gif?itemid=14184806" alt="Ricardo">
+					<img style="transform: rotateZ(10deg)" class="fragment" width="250" height="250" src="https://media1.tenor.com/images/ad8183f947907fff72624b99098b368f/tenor.gif?itemid=17946989" alt="Cat jam">
+					<img style="transform: rotateZ(2deg)" class="fragment" src="https://media1.tenor.com/images/e8e8718845a89267a238d763febe7efb/tenor.gif?itemid=5063009" alt="Dragon ball">
+				</div>
+			</section>
+    </section>
+		<section data-background-color="#457b9d">
+			<p class="r-fit-text">Chcemy mu pomóc w <b>nawigacji</b> po stronie</p>
+			<a href="#0" class="bttn">Zobacz więcej</a>
+			<a href="#0" class="bttn-dark">Patrz szerzej</a>
+		</section>
+  </div>
+</div>
+
+<script src="dist/reveal.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/markdown/markdown.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script>
+  // More info about initialization & config:
+  // - https://revealjs.com/initialization/
+  // - https://revealjs.com/config/
+  Reveal.initialize({
+    hash: true,
+
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+  });
+</script>
+</body>
+</html>
