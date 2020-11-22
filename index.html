@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="dist/reset.css">
   <link rel="stylesheet" href="dist/reveal.css">
   <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" />
 
   <!-- Theme used for syntax highlighted code -->
   <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
@@ -29,7 +30,7 @@
       </section>
       <section data-background-color="#457b9d">
         <p>Podzielę się z wami moją wiedzą i doświadczeniem z zakresu <b>animacji</b>.</p><br>
-        <p>Jeśli macie jakieś <b>pytania</b>, bardzo chętnie spróbuję na nie odpowiedzieć.</p>
+        <p>Jeśli macie jakieś <b>pytania</b>, bardzo chętnie spróbuję na nie odpowiedzieć na sam koniec.</p>
       </section>
     </section>
     <section data-background-color="#1d3557">
@@ -87,7 +88,7 @@
       <p>Odpowiedź:</p>
     </section>
     <section data-background-color="#1d3557">
-      <p class="r-fit-text"><b>Użytkownik</b> chętniej wróci na naszą stronę - coś się dzieje</p>
+      <p class="r-fit-text">Animacje na stronie wyglądają <b>fajnie</b></p>
 			<br>
 			<section>
 				<div class="r-stack">
@@ -95,13 +96,61 @@
 					<img style="transform: rotateZ(10deg)" class="fragment" width="250" height="250" src="https://media1.tenor.com/images/ad8183f947907fff72624b99098b368f/tenor.gif?itemid=17946989" alt="Cat jam">
 					<img style="transform: rotateZ(2deg)" class="fragment" src="https://media1.tenor.com/images/e8e8718845a89267a238d763febe7efb/tenor.gif?itemid=5063009" alt="Dragon ball">
 				</div>
+        <p class="fragment caption">
+          źródło:<a target="_blank" href="https://codepen.io/marianab/full/XPOQaR/">&nbsp;Mariana</a>
+        </p>
+        <p class="fragment caption">
+          źródło:<a target="_blank" href="https://codepen.io/matchboxhero/pen/RLebOY?editors=1100">&nbsp;Steven Roberts</a>
+        </p>
+        <p class="fragment caption">
+          źródło:<a target="_blank" href="https://codepen.io/electerious/details/qPjbGm/">&nbsp;Tobias Reich</a>
+        </p>
 			</section>
     </section>
 		<section data-background-color="#457b9d">
 			<p class="r-fit-text">Chcemy mu pomóc w <b>nawigacji</b> po stronie</p>
-			<a href="#0" class="bttn">Zobacz więcej</a>
-			<a href="#0" class="bttn-dark">Patrz szerzej</a>
+			<a target="_blank" href="#0" class="bttn">Zobacz więcej</a>
+			<a target="_blank" href="#0" class="bttn-dark">Patrz szerzej</a>
+      <p class="caption">źródło: <a target="_blank" href="https://codepen.io/kitsune/pen/wWoRVW?editors=1100">Kitsune</a></p>
 		</section>
+    <section data-background-color="#1d3557">
+      <p class="r-fit-text">Dajemy mu znać, że coś się dzieje w tym momencie.</p>
+      <svg version="1.1"
+           xmlns="http://www.w3.org/2000/svg"
+           xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="25 25 50 50">
+        <circle cx="50" cy="50" r="20" fill="none" stroke-width="5" stroke="#a8dadc" stroke-linecap="round" stroke-dashoffset="0" stroke-dasharray="100, 200">
+          <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 50 50" to="360 50 50" dur="2.5s" repeatCount="indefinite"/>
+          <animate attributeName="stroke-dashoffset" values="0;-30;-124" dur="1.25s" repeatCount="indefinite"/>
+          <animate attributeName="stroke-dasharray" values="0,200;110,200;110,200" dur="1.25s" repeatCount="indefinite"/>
+        </circle>
+      </svg>
+      <p class="caption">źródło: <a target="_blank" href="https://codepen.io/eugene_burlak/pen/wvWXZNv">Eugene Burlak</a></p>
+    </section>
+    <section data-background-color="#457b9d">
+      <p class="r-fit-text">Zapełniamy <a target="_blank" href="https://css-tricks.com/native-like-animations-for-page-transitions-on-the-web/"><b>”dziury”</b></a> w czasie zmian stanu aplikacji</p>
+      <ul class="list" style="display: flex; list-style-type: none;">
+        <li><a href="#">① <span>Start</span></a></li>
+        <li><a href="#">② <span>Menu</span></a></li>
+        <li><a href="#">③ <span>Galeria</span></a></li>
+        <li><a href="#">④ <span>Kategoria</span></a></li>
+        <li><a href="#">⑤ <span>Zdjecie</span></a></li>
+        <li><a href="#">⑥ <span>Opis</span></a></li>
+      </ul>
+      <p class="caption">źródło: <a target="_blank" href="https://codepen.io/chriscoyier/pen/dxBoKb">Chris Coyier</a></p>
+    </section>
+    <section data-background-color="#1d3557">
+      <p class="r-fit-text">Podział</p>
+    </section>
+    <section data-background-color="#457b9d">
+      <p class="r-fit-text">Animacje interaktywne</p>
+      <div class="col_third">
+        <i id="heart" style="color: #e63946; cursor: pointer;" class="fa fa-heart fa-5x icn_red"></i>
+      </div>
+    </section>
+    <section data-background-color="#1d3557">
+      <p class="r-fit-text">Animacje nieinteraktywne</p>
+      <iframe src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" frameborder="0" style="border-radius: 5px;"></iframe>
+    </section>
   </div>
 </div>
 
@@ -109,6 +158,8 @@
 <script src="plugin/notes/notes.js"></script>
 <script src="plugin/markdown/markdown.js"></script>
 <script src="plugin/highlight/highlight.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 <script>
   // More info about initialization & config:
   // - https://revealjs.com/initialization/
@@ -118,6 +169,14 @@
 
     // Learn about plugins: https://revealjs.com/plugins/
     plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+  });
+
+  document.querySelector('#heart').addEventListener('mouseenter', () => {
+    document.querySelector('#heart').classList.add('heart-anim');
+  });
+
+  document.querySelector('#heart').addEventListener('mouseout', () => {
+    document.querySelector('#heart').classList.remove('heart-anim')
   });
 </script>
 </body>
