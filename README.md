@@ -1,7 +1,5 @@
 # Prezentacja MNN 2020
 <p>Temat: Animacje na stronach www</p>
-<hr>
-
 
 ## Instalacja zależności
 `npm i`
@@ -9,7 +7,9 @@
 ## Startowanie lokalnego web servera
 `npm start`
 
-<hr>
+## LIVE DEMO
+
+[Demo](https://animacje-mnn.netlify.app/)
 
 ## Stworzone przy użyciu
 
